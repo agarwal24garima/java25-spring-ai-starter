@@ -1,0 +1,1 @@
+# java25-spring-ai-starter
