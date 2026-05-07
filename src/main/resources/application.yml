@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: java25-spring-ai-starter
+
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: mistral
+
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
